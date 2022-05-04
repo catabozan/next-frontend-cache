@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -12,6 +13,11 @@ export default function Home() {
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <Image
+          src="https://staging.api.welhome.ro/storage/627176b782a63/2.jpg"
+          layout='fill'
+        />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
