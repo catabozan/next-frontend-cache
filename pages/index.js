@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <Image
-          src="https://staging.api.welhome.ro/storage/627176b782a63/2.jpg"
+          src="https://driven-whatsapp-api-media.s3.eu-central-1.amazonaws.com/messages/beach-cache.jpg"
           layout='fill'
         />
 

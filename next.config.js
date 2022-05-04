@@ -4,7 +4,7 @@
 const nextConfig = {
     /* config options here */
     images: {
-        domains: ['welhome.ro', 'staging.api.welhome.ro']
+        domains: ['welhome.ro', 'staging.api.welhome.ro', 'driven-whatsapp-api-media.s3.eu-central-1.amazonaws.com']
     },
     headers: async () => ([
         {
