@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "./php wpg-bin testing && next build",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
